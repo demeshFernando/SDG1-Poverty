@@ -1,0 +1,12 @@
+01. cyprus                   https://www.ohchr.org/en/issues/poverty/pages/annualreports.aspx
+02. uruguay                  https://www.worldbank.org/en/country/uruguay/overview
+03. thailand                 http://pubdocs.worldbank.org/en/149501583303319716/WB-Poverty-Report-Thailand-2020-Low-res.pdf
+04. russian fedaration       http://databank.worldbank.org/data/download/poverty/987B9C90-CB9F-4D93-AE8C-750588BF00QA/AM2021/Global_POVEQ_RUS.pdf
+05. moldowa                  https://www.imf.org/external/pubs/ft/scr/2013/cr13269.pdf
+06. chaina                   https://img.cfpa.org.cn/gwfiles/file/20210421/20210421164557_8745.pdf
+07. armenia                  http://databank.worldbank.org/data/download/poverty/987B9C90-CB9F-4D93-AE8C-750588BF00QA/AM2020/Global_POVEQ_ARM.pdf
+08. Sweden                   https://ec.europa.eu/social/BlobServlet?docId=21090&langId=en
+09. usbekistan               http://pubdocs.worldbank.org/en/988861587043457680/Uzbekistan-Snapshot-Apr2020.pdf
+10. maldives                 https://thedocs.worldbank.org/en/doc/93bdbd79b45eeb504743f4514f1095e1-0310062021/original/April-2021-Maldives-Development-Update.pdf
+11. mexico                   https://databank.worldbank.org/data/download/poverty/33EF03BB-9722-4AE2-ABC7-AA2972D68AFE/Global_POVEQ_MEX.pdf
+
