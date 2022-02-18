@@ -1,0 +1,455 @@
+<html>
+    <head>
+        <title>Poverty: Sweden</title>
+        <!-- importign the css file caled defaultDecoration -->
+        <link rel="stylesheet" href="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\defaultDecorations.css">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+
+        <style>
+
+            /* class called bg-image */
+            .bg-image
+            {
+                background-image: url("https://www.countryflags.com/wp-content/uploads/sweden-flag-png-large.png");
+                filter: blur(8px);
+                -webkit-filter: blur(8px);
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100% 70%;
+            }
+
+            /* importing class called bg-text */
+            .bg-text
+            {
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+                color: white;
+                font-weight: bold;
+                border: 3px solid #000000;
+                position: absolute;
+                font-size: 20px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -10%);
+                z-index: 2;
+                width: 90%;
+                padding: 20px;
+                text-align: center;
+            }
+
+            /* final editing for the ending div */
+            .ending{
+                background-color: rgb(4, 25, 56); 
+                background-color: rgba(4, 25, 56, 0.4);
+                border-top: 5px solid black;
+                color: white;
+                top: 1450px;
+                height: 350px   ;
+                position: relative;
+            }
+
+            /* the ending heading poverty */
+            .endingHeading
+            {
+                font-family: 'Akaya Telivigala', cursive;
+                font-size: 100px;
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+                color: rgb(9, 16, 27);
+            }
+
+            /* the quote treating is better than worrying */
+            .endingQuote{
+                font-family: 'Syne Tactile', cursive;
+                position: absolute;
+                font-size: 30px;
+                left: 195px;
+                top: 70px;
+            }
+
+            /* country flag */
+            #endingFlag{
+                float: right;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                width: 250px;
+            }
+
+            /* ending poverty logo */
+            #endingLogo{
+                float: left;
+                position: relative;
+                border: 3px solid white;
+                left: 10px;
+                top: 10px;
+            }
+
+            /* editing for the president photo */
+            .president{
+                border: 10px solid black;
+                width: 300px;
+                position: absolute;
+                top: 510px;
+                z-index: 2;
+            }
+
+            /* Editing for the mapped view */
+            .mapped-view{
+                border: 5px solid rgb(4, 25, 56);
+                width: 300px;
+                position: absolute;
+                z-index: 1;
+                top: 1000px;
+                right: 10px;
+            }
+
+            /* poverty image 1 */
+            .poverty-img1{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1500px;
+                left: 10px;
+            }
+
+            /* poverty image 2 */
+            .poverty-img2{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1700px;
+                left: 100px;
+            }
+
+            /* poverty image 3 */
+            .poverty-img3{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1900px;
+                right: 10px;
+            }
+
+            /* poverty image 4 */
+            .poverty-img4{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 3;
+                top: 3760px;
+                right: 30px;
+            }
+
+            /* poverty image 1 */
+            .img1
+            {
+                position: relative;
+                right: -160px;
+            }
+
+            /* main logo design */
+            #logo{
+                float: right;
+                width: 100px;
+                position: absolute;
+                top: 15px;
+                right: 10px;
+            }
+
+            /* adding the hover effect */
+            #logo:hover
+            {
+                opacity: 0.7;
+            }
+
+            /* finland main heading */
+            #mainheading{
+                font-size: 50px;
+                text-indent: 50px;
+                padding: 0px;
+                margin: 0px;
+                border-style: none;
+            }
+
+            /* color for heading in bg-text div pane */
+            #h1
+            {
+                color: #3b8ab8;
+            }
+
+            /* google font for mainheading */
+            #mainHeading{
+                font-family: 'Redressed', cursive;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- adding the panels that are colored at the begining of the web page -->
+        <div id = "color"></div>
+        <div id = "color1"></div>
+        <div id = "color2"></div>
+        <div id = "color3"></div>
+        <div id = "color4"></div>
+        <div id = "color5"></div>
+        <div id = "color6"></div>
+        <div id = "color7"></div>
+        <div id = "color8"></div>
+        <div id = "color9"></div>
+        <div id = "color10"></div>
+        <div id = "color11"></div>
+        <div id = "color12"></div>
+        <div id = "color13"></div>
+        <div id = "color14"></div>
+        <div id = "color15"></div>
+        <div id = "color16"></div>
+        <br>
+
+        <!-- importing logo and linking it with home page -->
+        <a href="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\home.html">
+        <img id = "logo" src="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\sample images\no poverty.jpg" alt="logo" aria-placeholder="No Poverty">
+        </a>
+
+        <!-- main heading -->
+        <h1 id="mainHeading"><strong>2. Sweden</strong></h1>
+
+        <!-- line breaking -->
+        <br>
+
+        <!-- the main bluring divition for the country flag -->
+        <div class="bg-image"></div>
+
+        <!-- paragraph view -->
+        <div class="bg-text">
+            <p>
+                Situated in northern Europe, Sweden lies west of the Baltic sea and gulf of bothnia, 
+                providing a long coastline, and forms the eastern part of the Scandinavian peninsula. To the 
+                west is the Scandinavian mountain chain (Skanderna), a range that separates sweden from norway, 
+                finland is located to its north-east. It has maritime borders with Denmark, Germany, Poland, 
+                Russia, Lithuania, Latvia and Estonia, and it is also linked to Denmark(south-west) by the 
+                Oresund bridge. Its border with Norway is the longest uninterrupted border within Europe.
+                Sweden lies between latitudes 55o and 70o N, and mostly between longitudes 11o and 25o E 
+                (part of stora drammen island is just west of 110). 
+                At 449,964 km2 sweden is the 55th largest country in the world, the fifth &#8211; largest country in 
+                europe, and the largest country in northern Europe. The lowest elevation in Sweden is in the ba 
+                of lake hammarsjon, near Kristianstad, at -2.41 m (-7.91 ft) below sea level. The highest point 
+                is Kebnekaise at 2,111 m(6,926 ft) above sear level. 
+                Sweden is the sixteenth richest country in the world in terms of GDP (gross domestic product) 
+                per capita and a high standard of living is experienced by its citizens. Sweden is an export &#8211; 
+                oriented mixed economy. Timber, hydropower and iron ore constitute the resourse base of an 
+                economy with a heavy emphasis on foreign trade. Sweden&apos;s engineering sector accounts for 50% of 
+                output and exports, while telecommunications, the automotive industry and the pharamaceutical 
+                industries are also of great importance, Sweden is the ninth &#8211; largest arms exporter in the 
+                world. Agriculture accounts for 2% GDP and employment. The country ranks among the highest for 
+                tephone and internet access penetration.
+                The total resident population of Sweden was 10,377 in October 2020. The population exceeded to 
+                10 million for the first time on Friday 20 january 2017.
+                In Sweden, 
+            </p>
+
+            <h1 id="h1">Poverty is measured on the basis of:</h1>
+
+            <ul>
+                <li>
+                    <h2 id="h1">"Serious material poverty"</h2>
+
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Serious material poverty is the reality for almost 2% of Sweden's population. 
+                        This means that 184,000 people live in such 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        circumstances that they may 
+                        not be able to put food on the table every day or that they cannot meet other 
+                        necessary costs.
+
+                    </p>
+                </li>
+
+                <li>
+                    <h2 id="h1">"Material and social poverty" </h2>
+
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Material and social poverty is a new indicator developed by the EU to replace the 
+                        measure of serious material poverty. The aim is 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        to be able to capture the social 
+                        dimension that poverty entails, by also including the opportunities for social 
+                        interaction. This 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        includes, for example, not being able to pay unforeseen expenses, 
+                        not being able to afford sufficient heating of the home or not 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        being able to pay debts 
+                        within the set time. It is also about not being able to participate in social 
+                        activities that cost money, such as 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        sharing a meal with relatives and friends at least 
+                        once a month or being able to spend money on entertainment activities. For
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Sweden, it 
+                        affects about 400,000 people, ie 4% of the population. In Sweden, material and social 
+                        poverty is most common among 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        those who are unemployed, the proportion is 21 percent of 
+                        the unemployed, compared with 2 percent of those who work. It is
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        also more common for 
+                        foreign-born people. To live under these conditions compared with domestic-born people,
+                        11 per cent compared with just under 2 per cent.
+
+                    </p>
+                </li>
+
+                <li>
+                    <h2 id="h1">"Absolute poverty"</h2>
+
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Absolute poverty can also be described with the terms "Low income standard" and 
+                        "absolute poverty line". The limit for absolute poverty is usually equated with an 
+                        income corresponding to the level of income support. Just over half a million people, 
+                        570,000 or 6% of the population live in absolute poverty in Sweden.
+
+                    </p>
+                </li>
+
+                <li>
+                    <h2 id="h1">"Risk of poverty" / "relative poverty" </h2>
+
+                    <p>
+                        Risk of poverty is also called relative poverty or "low economic standard". This means 
+                        having less than 60% of the country's median income, which in 2019 corresponded to a 
+                        monthly income of SEK 12,248 after tax, including any housing supplement. About 1.7 
+                        million people, 17.1% in Sweden, live at risk of poverty.
+
+                    </p>
+                </li>
+            </ul>
+
+            <h2 id="h1">Poverty over time</h2>
+
+            <p>
+                Over a ten-year period, poverty in Sweden has increased. It is the consequence of conscious 
+                political changes in the welfare systems that have been implemented during the period. That 
+                1.8 million, ie close to a fifth of the population, live in or at risk of poverty is not decent 
+                in a welfare state like Sweden. Unfortunately, we can state that this problem is not paid enough 
+                attention. The causes of rising poverty must be combated. Everyone, not just a few, must 
+                benefit from welfare. The groups of people who, in relation to the general population, 
+                are often poor
+            </p>
+
+            <h2 id="h1">Poor who are not visible at all</h2>
+
+            <p>
+                A group of the poor who are increasingly taking up space in the public sphere are undocumented 
+                refugees and EU migrants. They reside in Sweden without having a population registration 
+                address and are therefore not included in the official statistics published by Statistics 
+                Sweden. The people who do not have a permanent home, work illegally or for some other reason 
+                "stay away", are also not visible in the official statistics. This means that the number of 
+                people who are poor in Sweden is higher than official statistics show.
+            </p>
+
+            <h2 id="h1">How many are poor </h2>
+
+            <p>
+                Sweden's total population in September 2020 was 10.4 million. Depending on how you count, 
+                between half a million and almost 2 million or more are poor in Sweden. However you choose to 
+                count, the conclusion is that there are unacceptable numbers. We must work together to ensure 
+                that the number of people in poverty does not increase but decreases
+            </p>
+
+            <h1 id="h1">The Swedish labor market and minimum wage</h1>
+            <h2 id="h1">What is the problem? </h2>
+
+            <p>
+                In Europe, there are many countries where employee safety is severely curtailed. Many are 
+                exploited with employment conditions and wages that are far below the poverty line. Employment 
+                security is also weak. In Sweden, there are also problems in the labor market. Although most
+                workplaces are covered by collective agreements between employers and the trade unions, there 
+                are workplaces that do not have this. Not even the "law" always reaches these workplaces. 
+                Within the EU, a proposal from the European Commission for a directive on minimum wages in 
+                EU member states is currently being considered. This as part of the fight against poverty 
+                and unworthy living conditions. EAPN Sweden has, to the best of its ability, followed the 
+                discussion and acted on the issue because it is important for EAPN, both at European level and 
+                in Sweden.
+            </p>
+        </div>
+
+        <!-- divitions to import president photo, country mapped view and the other poverty displaying images -->
+        <div>
+            <img placeholder="President of sweden: Sauli Niinistö" class="president" src="./images/sweden/prime minister.jpg" alt="sample picture">
+        </div>
+        <div>
+            <img src="./images/sweden/mapped view.jpg" alt="mapped view of sweden" class="mapped-view" aria-placeholder="Mapped view of Finland">
+        </div>
+        <div>
+            <img src="./images/sweden/img1.jpg" alt="Poverty in finland" class="poverty-img1" aria-placeholder="poverty in Finland">
+        </div>
+        <div>
+            <img src="./images/sweden/img2.jpg" alt="Poverty in finland" class="poverty-img2" aria-placeholder="poverty in Finland">
+        </div>
+        <div>
+            <img src="./images/sweden/img3.jpg" alt="Poverty in finland" class="poverty-img3" aria-placeholder="poverty in Finland">
+        </div>
+
+        <!-- ending pane -->
+        <div class = "ending">
+            <img id = "endingLogo" src="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\sample images\no poverty.jpg" alt="logo" aria-placeholder="No Poverty" width="200px">
+            <img src="https://www.countryflags.com/wp-content/uploads/sweden-flag-png-large.png" alt="Country Flag" id="endingFlag">
+            <h1 class="endingHeading"> &nbsp;&nbsp; PovertY</h1>
+            <h2 class="endingQuote">&nbsp;&nbsp;&nbsp; Treating is better than worrying</h2>
+            <br><br><br><br>
+            <h2>&nbsp;&nbsp; Testimonial</h2>
+            <ul>
+                <li>
+                    Poverty Watch Sweden | Poverty Watches Overview 2020 & 2021. <br>
+                    (2021, October 8). EAPN. Retrieved January 15, 2022, from <br>
+                    <a href="https://www.eapn.eu/poverty-watch-sweden-poverty-watches-overview-2020/" target="_blank">https://www.eapn.eu/poverty-watch-sweden-poverty-watches-overview-2020/</a> 
+                </li>
+            </ul>
+        </div>
+        
+    </body>
+</html>
