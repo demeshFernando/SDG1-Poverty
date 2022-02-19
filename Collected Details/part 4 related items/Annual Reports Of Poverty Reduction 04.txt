@@ -1,0 +1,9 @@
+34.bahrain       https://unhabitat.org/sites/default/files/2021/05/annual_progress_report_2020_final.pdf
+35.cambadia      https://docs.wfp.org/api/documents/WFP-0000125377/download/
+36.south africa  https://openknowledge.worldbank.org/bitstream/handle/10986/34406/9781464816192.pdf
+37.bangaladesh   https://www.wvi.org/sites/default/files/2021-05/WV%20Bangladesh_Annual%20Report%202020.pdf
+38.kuwait        https://openknowledge.worldbank.org/bitstream/handle/10986/34406/9781464816192.pdf
+39.india         https://www.unsouthsouth.org/wp-content/uploads/2021/09/SSC-IBSA-Report-2020.pdf
+40.zimbabwe      https://docs.wfp.org/api/documents/WFP-0000125453/download/
+41.pakistan      https://www.ppaf.org.pk/doc/PPAF%20Annual%20Report%202020.pdf
+42.malawi        https://microdata.worldbank.org/index.php/catalog/3818/download/51154
