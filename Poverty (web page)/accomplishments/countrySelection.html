@@ -15,13 +15,13 @@
 
         <style>
             body{
-                background-color: #822923;
+                background-color: white;
             }
 
             h1{
                 font-family: 'Courgette', cursive;
                 font-size: 50px;
-                color: #f0bc62;
+                color: #112340;
             }
 
             #logo{
@@ -37,31 +37,514 @@
                 opacity: 0.7;
             }
 
-            #finland{
-                background-repeat: no-repeat;
-                border: 5px solid black;
-                padding: 10px;
-                width: 350px;
-                height: 180px;
-                left: 10px;
-                top: 150px;
-                position: absolute;
+            div.finland {
+                width: 250px;
+                text-align: center;
                 font-family: 'Lobster', cursive;
-                color: black;
-                background-size: cover;
+                font-size: 40px;
+                position: absolute;
+                top: 150px;
+                left: 10px;
+            }
+            div.finland:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
             }
 
-            #belgium{
-                border-radius: 25px;
-                border: 5px solid white;
-                padding: 10px;
-                width: 200px;
-                height: 100px;
-                left: 500px;
-                top: 150px;
-                position: absolute;
+            div.sweden {
+                width: 250px;
+                text-align: center;
                 font-family: 'Lobster', cursive;
-                color: white;
+                font-size: 40px;
+                position: absolute;
+                top: 150px;
+                left: 300px;
+            }
+            div.sweden:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.denmark {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 150px;
+                left: 600px;
+            }
+            div.denmark:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.germany {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 150px;
+                left: 900px;
+            }
+            div.germany:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.belgium {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 150px;
+                left: 1200px;
+            }
+            div.belgium:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.austria {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 450px;
+                left: 10px;
+            }
+            div.austria:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.norway {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 450px;
+                left: 300px;
+            }
+            div.norway:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.france {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 450px;
+                left: 600px;
+            }
+            div.france:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.stovenia {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 450px;
+                left: 900px;
+            }
+            div.stovenia:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.estonia {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 450px;
+                left: 1200px;
+            }
+            div.estonia:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.netherlands {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 750px;
+                left: 10px;
+            }
+            div.netherlands:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.czechRepublic {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 750px;
+                left: 300px;
+            }
+            div.czechRepublic:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.ireland {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 750px;
+                left: 600px;
+            }
+            div.ireland:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.croatia {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 750px;
+                left: 900px;
+            }
+            div.croatia:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.poland {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 750px;
+                left: 1200px;
+            }
+            div.poland:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.switzerland {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1050px;
+                left: 10px;
+            }
+            div.switzerland:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.unitedKingdom {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1050px;
+                left: 300px;
+            }
+            div.unitedKingdom:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.japan {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1050px;
+                left: 600px;
+            }
+            div.japan:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.slovakRepublic {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1050px;
+                left: 900px;
+            }
+            div.slovakRepublic:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.spain {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1050px;
+                left: 1200px;
+            }
+            div.spain:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.canada {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1350px;
+                left: 10px;
+            }
+            div.canada:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.latvia {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1350px;
+                left: 300px;
+            }
+            div.latvia:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.newZeland {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1350px;
+                left: 600px;
+            }
+            div.newZeland:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.belarus {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1350px;
+                left: 900px;
+            }
+            div.belarus:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.hungary {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1350px;
+                left: 1200px;
+            }
+            div.hungary:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.italy {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1650px;
+                left: 10px;
+            }
+            div.italy:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.potugal {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1650px;
+                left: 300px;
+            }
+            div.potugal:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.koreaRep {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1650px;
+                left: 600px;
+            }
+            div.koreaRep:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.iceland {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1650px;
+                left: 900px;
+            }
+            div.iceland:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+            }
+
+            div.chile {
+                width: 250px;
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
+                position: absolute;
+                top: 1650px;
+                left: 1200px;
+            }
+            div.chile:hover {
+                width: 250px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                text-align: center;
+                font-family: 'Lobster', cursive;
+                font-size: 40px;
             }
         </style>
     </head>
@@ -94,13 +577,274 @@
             <h1>Country List</h1>
         </div>
 
-        <div id="finland">
-            <img src="https://www.countryflags.com/wp-content/uploads/finland-flag-png-large.png" alt="Finland" width="100%">
-            <div>
-                paragraph will display here
+        <div class="finland">
+            <a href="./Country wise description/1.finland.html">
+                <img src="https://www.countryflags.com/wp-content/uploads/finland-flag-png-large.png" alt="Norway" style="width:100%; height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>1. Finland</p>
             </div>
+        </div>
 
-            <p id="belgium">rounder 2</p>
+        <div class="sweden">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://www.countryflags.com/wp-content/uploads/sweden-flag-png-large.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>2. Sweden</p>
+            </div>
+        </div>
+
+        <div class="denmark">
+            <a href="./Country wise description/3.Denmark.html">
+                <img src="https://www.countryflags.com/wp-content/uploads/denmark-flag-png-large.png" alt="Norway" style="width:100%; height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>3. Denmark</p>
+            </div>
+        </div>
+
+        <div class="germany">
+            <a href="./Country wise description/4.Germany.html">
+                <img src="https://cdn.countryflags.com/thumbs/germany/flag-800.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div>
+              <p>4. Germany</p>
+            </div>
+        </div>
+
+        <div class="belgium">
+            <a href="./Country wise description/5.belgium.html">
+                <img src="https://www.countryflags.com/wp-content/uploads/flag-jpg-xl-18-1536x1331.jpg" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>5. Belgium</p>
+            </div>
+        </div>
+
+        <div class="austria">
+            <a href="./Country wise description/6.austria.html">
+                <img src="https://cdn.countryflags.com/thumbs/austria/flag-800.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>6. Austria</p>
+            </div>
+        </div>
+
+        <div class="norway">
+            <a href="./Country wise description/7.norway.html">
+                <img src="https://www.countryflags.com/wp-content/uploads/norway-flag-png-large.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>7. Norway</p>
+            </div>
+        </div>
+
+        <div class="france">
+            <a href="">
+                <img src="https://www.countryflags.com/wp-content/uploads/france-flag-png-large.png" alt="France" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>8. France</p>
+            </div>
+        </div>
+
+        <div class="stovenia">
+            <a href="">
+                <img src="https://www.countryflags.com/wp-content/uploads/slovenia-flag-png-large.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>9. Slovenia</p>
+            </div>
+        </div>
+
+        <div class="estonia">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://cdn.countryflags.com/thumbs/estonia/flag-800.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>10. Estonia</p>
+            </div>
+        </div>
+
+        <div class="netherlands">
+            <a href="">
+                <img src="https://www.countryflags.com/wp-content/uploads/netherlands-flag-png-large.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>11. netherlands</p>
+            </div>
+        </div>
+
+        <div class="czechRepublic">
+            <a href="">
+                <img src="https://cdn.countryflags.com/thumbs/czech-republic/flag-800.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>12. Czech rep.</p>
+            </div>
+        </div>
+
+        <div class="ireland">
+            <a href="">
+                <img src="https://www.countryflags.com/wp-content/uploads/ireland-flag-png-large.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>13. Ireland</p>
+            </div>
+        </div>
+
+        <div class="croatia">
+            <a href="">
+                <img src="https://cdn.countryflags.com/thumbs/croatia/flag-800.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>14. Croatia</p>
+            </div>
+        </div>
+
+        <div class="poland">
+            <a href="">
+                <img src="https://www.countryflags.com/wp-content/uploads/poland-flag-png-large.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>15. Poland</p>
+            </div>
+        </div>
+
+        <div class="switzerland">
+            <a href="">
+                <img src="https://cdn.countryflags.com/thumbs/switzerland/flag-800.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>16. Switzerland</p>
+            </div>
+        </div>
+
+        <div class="unitedKingdom">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://cdn.countryflags.com/thumbs/united-kingdom/flag-800.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>17. United King.</p>
+            </div>
+        </div>
+
+        <div class="japan">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://www.countryflags.com/wp-content/uploads/japan-flag-png-large.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>18. Japan</p>
+            </div>
+        </div>
+
+        <div class="slovakRepublic">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://cdn.countryflags.com/thumbs/slovakia/flag-800.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>19. Slovak Rep.</p>
+            </div>
+        </div>
+
+        <div class="spain">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://cdn.countryflags.com/thumbs/spain/flag-800.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>20. Spain</p>
+            </div>
+        </div>
+
+        <div class="canada">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://www.countryflags.com/wp-content/uploads/canada-flag-png-large.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>21. Canada</p>
+            </div>
+        </div>
+
+        <div class="latvia">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://cdn.countryflags.com/thumbs/latvia/flag-800.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>22. Latvia</p>
+            </div>
+        </div>
+
+        <div class="newZeland">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://www.countryflags.com/wp-content/uploads/new-zealand-flag-png-large.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>23. New Zea.</p>
+            </div>
+        </div>
+
+        <div class="belarus">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://cdn.countryflags.com/thumbs/belarus/flag-800.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>24. Belarus</p>
+            </div>
+        </div>
+
+        <div class="hungary">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://www.countryflags.com/wp-content/uploads/hungary-flag-png-large.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>25. Hungary</p>
+            </div>
+        </div>
+
+        <div class="italy">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://www.countryflags.com/wp-content/uploads/italy-flag-png-large.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>26. Italy</p>
+            </div>
+        </div>
+
+        <div class="potugal">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://cdn.countryflags.com/thumbs/portugal/flag-800.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>27. Portugal</p>
+            </div>
+        </div>
+
+        <div class="koreaRep">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://www.countryflags.com/wp-content/uploads/south-korea-flag-png-large.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>28. Korea, Rep</p>
+            </div>
+        </div>
+
+        <div class="iceland">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://cdn.countryflags.com/thumbs/iceland/flag-800.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>29. Iceland</p>
+            </div>
+        </div>
+
+        <div class="chile">
+            <a href="./Country wise description/2.sweden.html">
+                <img src="https://www.countryflags.com/wp-content/uploads/chile-flag-png-large.png" alt="Norway" style="width:100%;height: 158px;">
+            </a>
+            <div class="finlandContainer">
+              <p>30. chile</p>
+            </div>
         </div>
     </body>
 </html>
