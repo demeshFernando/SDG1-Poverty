@@ -101,3 +101,29 @@ nav img{
 .footer h1{
     text-align: center;
 }
+.table
+
+{
+  
+  font font-family: arial, helvetoca sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+
+}
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+ .tr ,td
+
+{
+    border: 1px solid #ddd;
+    padding: 8px 100px;
+    color: white;
+
+}
