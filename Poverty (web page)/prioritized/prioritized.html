@@ -8,12 +8,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    </head>
 <body>
     <section class="header">
         <nav>
             <a href="poverty.html"><img src="images/logo1.jpg"></a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">PRIORITIZED</a></li>
@@ -22,15 +24,24 @@
                     <li><a href="">ABOUT US</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>What is the Poverty</h1>
             <p>Poverty is a state or condition in which a person or community lacks the financial resources and essentials for a minimum standard of living. Poverty means that the income level from employment is so low that basic human needs can't be met. Poverty-stricken people and families might go without proper housing, clean water, healthy food, and medical attention. Each nation may have its own criteria for determining how many of its people are living in poverty.</p>
         <a href="#children"class="hero-btn">Visit Us To Know More</a>        
     </div>
-
     </section>
-    </section>
+    <!--------java script-------->
+    <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-250px";
+            }
+    
     <!------Factors of Poverty------->
     <section class="FactorsofPoverty">
         <h1>Factors of Poverty</h1>
@@ -134,7 +145,7 @@
             <i class="fa fa-instagram" ></i>
             <i class="fa fa-linkedin" ></i>
         </div>
-        <p>Made with<i class="fa fa-heart-o" ></i>by Easy Tutorials</p>
+        <p>Yasod<i class="fa fa-heart-o" ></i>Kavindu De Silva</p>
     </section>
 
 </body>
