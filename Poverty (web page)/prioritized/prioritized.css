@@ -214,4 +214,42 @@ h3{
 .Types-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0,20px);
 }
+.lanka{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
 
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+     margin-top:5% ;
+}
+.lanka-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.lanka-col img{
+    width: 260px;
+    height: 400px;
+    justify-content: space-between;
+}
