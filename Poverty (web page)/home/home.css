@@ -77,6 +77,9 @@ nav .menu{
   width: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
+.content{
+  display: flex;
+}
 .center{
   position: absolute;
   top: 52%;
@@ -100,8 +103,23 @@ nav .menu{
   font-weight: 500;
   font-family: serif;
 }
+.slhome{
+  background-color: #c7c7c7;
+  height: 1000px;
+  padding: 20px;
+}
+.psl{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: serif;
+}
+.slimage{
+  height: 200px;
+  width: auto;
+}
 .cards{
   display: flex;
+  position: relative;
   background-color: lightgray;
   text-align: center;
   font-weight: 300px;
@@ -136,6 +154,7 @@ nav .menu{
   height: 225px; 
   width: auto;
 }
+
 .footer-distributed {
   position: absolute;
   background-color:#292c2f;
