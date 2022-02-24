@@ -116,7 +116,6 @@ nav.fa{
         padding: 30px;
     }
 
-
 }
 /*------Factors of Poverty-------*/
 
@@ -158,6 +157,7 @@ p{
     width: 260px;
     height: 200px;
     justify-content: space-between;
+}
 .Povertyandchildren{
     width: 80%;
     margin: auto;
@@ -175,6 +175,7 @@ p{
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+   
 
 }
 .row{
@@ -196,7 +197,7 @@ p{
     height: 400px;
     justify-content: space-between;
 }
-.Types{
+.Types1{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -208,11 +209,11 @@ h1{
     font-weight: 600;
 }
 .row{
-    margin-top: 5%;
     display: flex;
     justify-content: space-between;
+     margin-top:5% ;
 }
-.Types-col{
+.Types1-col{
     flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
@@ -226,8 +227,41 @@ h3{
     font-weight: 600;
     margin: 10px 0;
 }
-.Types-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0,20px);
+.Types1-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0,0.2);
+}
+.Types2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+     margin-top:5% ;
+}
+.Types2-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.Types2-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0,0.2);
 }
 .lanka{
     width: 80%;
@@ -249,6 +283,10 @@ p{
     text-align: center;
 
 }
+.lanka-ul-li{
+    text-align: left;
+    position: left;
+}
 .row{
     display: flex;
     justify-content: space-evenly;
@@ -268,7 +306,7 @@ p{
     height: 400px;
     justify-content: space-between;
 }
-    /*----------footer--------*/
+/*----------footer--------*/
 
 .footer{
     width: 100%;
@@ -289,4 +327,5 @@ p{
 .fa-heart-o{
     color: #f44336;
 }
+
 
