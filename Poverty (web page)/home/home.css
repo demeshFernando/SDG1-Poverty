@@ -168,7 +168,21 @@ nav .menu{
   font-weight: 300px;
   font-size: 20px;
 
+
 }
+.Sweden{
+    display: flex;
+  height:300px ;
+}
+.Finland{
+    display: flex;
+  height:300px ;
+}
+.Denmark{
+    display: flex;
+  height:300px ;
+}
+
 
 .footer-distributed {
   position: absolute;
