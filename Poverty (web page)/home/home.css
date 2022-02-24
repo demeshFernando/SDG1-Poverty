@@ -62,12 +62,13 @@ nav .menu{
   color: black;
 }
 .img{
-  background: url('img3.jpg')no-repeat;
+  background: url('sdg-cover-01.jpg')no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-position: center;
   position: relative;
+  opacity: 0.4;
 }
 .img::before{
   content: '';
@@ -84,58 +85,59 @@ nav .menu{
   width: 100%;
   padding: 0 20px;
   text-align: center;
+  z-index: 15;
+  font-family: Georgia, serif;
 }
 .center .title{
-  color: #fff;
+  color:black;
   font-size: 55px;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: Garamond, serif;
 }
 .center .sub_title{
-  color: #fff;
-  font-size: 52px;
-  font-weight: 600;
-}
-.center .btns{
-  margin-top: 20px;
-}
-.center .btns button{
-  height: 55px;
-  width: 170px;
-  border-radius: 5px;
-  border: none;
-  margin: 0 10px;
-  border: 2px solid white;
-  font-size: 20px;
+  color: black;
+  font-size: 21px;
   font-weight: 500;
-  padding: 0 10px;
-  cursor: pointer;
-  outline: none;
-  transition: all 0.3s ease;
+  font-family: serif;
 }
-.center .btns button:first-child{
-  color: #fff;
-  background: none;
-}
-.btns button:first-child:hover{
-  background: white;
-  color: black;
-}
-.center .btns button:last-child{
-  background: white;
-  color: black;
-}
-section {
-  width: 100%;
-  display: inline-block;
-  background: #ccc;
-  height: 60vh;
+.cards{
+  display: flex;
+  background-color: lightgray;
   text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: underline;
+  font-weight: 300px;
+  font-size: 15px;
+}
+.quote01{
+        padding: 30px;
+        width: 33.33%;
+        height: 500px;
+        
+  }
+.quote02{
+        padding: 30px;
+        width: 33.33%;
+        height: 500px;
 }
 
+  .quote03{
+        padding: 30px;
+        width: 33.33%;
+        height: 500px;
+      }
+
+.card4to{
+  height: 250px; 
+  width: auto;
+  opacity: 0.95;
+}
+
+.card4togates{
+  opacity: 0.95;
+  height: 225px; 
+  width: auto;
+}
 .footer-distributed {
+  position: absolute;
   background-color:#292c2f;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
@@ -143,6 +145,8 @@ section {
   text-align: left;
   font: normal 16px sans-serif;
   padding: 45px 50px;
+  z-index: 13;
+
 }
 
 .footer-distributed .footer-left p {
@@ -216,4 +220,3 @@ section {
   .footer-distributed .footer-left p.footer-links {
     line-height: 1.8;
   }
-}
