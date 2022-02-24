@@ -1,0 +1,442 @@
+<html>
+    <head>
+        <title>Poverty: Estonia</title>
+        <!-- importign the css file caled defaultDecoration -->
+        <link rel="stylesheet" href="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\defaultDecorations.css">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+
+        <style>
+
+            /* class called bg-image */
+            .bg-image
+            {
+                background-image: url("https://cdn.countryflags.com/thumbs/estonia/flag-800.png");
+                filter: blur(8px);
+                -webkit-filter: blur(8px);
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100% 70%;
+            }
+
+            /* importing class called bg-text */
+            .bg-text
+            {
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+                color: white;
+                font-weight: bold;
+                border: 3px solid #000000;
+                position: absolute;
+                font-size: 20px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -20%);
+                z-index: 2;
+                width: 90%;
+                padding: 20px;
+                text-align: center;
+            }
+
+            /* final editing for the ending div */
+            .ending{
+                background-color: rgb(4, 25, 56); 
+                background-color: rgba(4, 25, 56, 0.4);
+                border-top: 5px solid black;
+                color: white;
+                top: 800px;
+                height: 550px   ;
+                position: relative;
+            }
+
+            /* the ending heading poverty */
+            .endingHeading
+            {
+                font-family: 'Akaya Telivigala', cursive;
+                font-size: 100px;
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+                color: rgb(9, 16, 27);
+            }
+
+            /* the quote treating is better than worrying */
+            .endingQuote{
+                font-family: 'Syne Tactile', cursive;
+                position: absolute;
+                font-size: 30px;
+                left: 195px;
+                top: 70px;
+            }
+
+            /* country flag */
+            #endingFlag{
+                float: right;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                width: 250px;
+            }
+
+            /* ending poverty logo */
+            #endingLogo{
+                float: left;
+                position: relative;
+                border: 3px solid white;
+                left: 10px;
+                top: 10px;
+            }
+
+            /* editing for the president photo */
+            .president{
+                border: 10px solid black;
+                width: 300px;
+                height: 400px;
+                position: absolute;
+                top: 200px;
+                z-index: 2;
+            }
+
+            /* Editing for the mapped view */
+            .mapped-view{
+                border: 5px solid rgb(4, 25, 56);
+                width: 300px;
+                position: absolute;
+                z-index: 1;
+                top: 800px;
+                right: 10px;
+            }
+
+            /* poverty image 1 */
+            .poverty-img1{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1000px;
+                left: 10px;
+            }
+
+            /* poverty image 2 */
+            .poverty-img2{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1250px;
+                left: 300px;
+            }
+
+            /* poverty image 3 */
+            .poverty-img3{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1250px;
+                right: 350px;
+            }
+
+            /* poverty image 1 */
+            .img1
+            {
+                position: relative;
+                right: -160px;
+            }
+
+            /* main logo design */
+            #logo{
+                float: right;
+                width: 100px;
+                position: absolute;
+                top: 15px;
+                right: 10px;
+            }
+
+            /* adding the hover effect */
+            #logo:hover
+            {
+                opacity: 0.7;
+            }
+
+            /* finland main heading */
+            #mainheading{
+                font-size: 50px;
+                text-indent: 50px;
+                padding: 0px;
+                margin: 0px;
+                border-style: none;
+            }
+
+            /* color for heading in bg-text div pane */
+            #h1
+            {
+                color: #3b8ab8;
+            }
+
+            /* google font for mainheading */
+            #mainHeading{
+                font-family: 'Redressed', cursive;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- adding the panels that are colored at the begining of the web page -->
+        <div id = "color"></div>
+        <div id = "color1"></div>
+        <div id = "color2"></div>
+        <div id = "color3"></div>
+        <div id = "color4"></div>
+        <div id = "color5"></div>
+        <div id = "color6"></div>
+        <div id = "color7"></div>
+        <div id = "color8"></div>
+        <div id = "color9"></div>
+        <div id = "color10"></div>
+        <div id = "color11"></div>
+        <div id = "color12"></div>
+        <div id = "color13"></div>
+        <div id = "color14"></div>
+        <div id = "color15"></div>
+        <div id = "color16"></div>
+        <br>
+
+        <!-- importing logo and linking it with home page -->
+        <a href="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\home.html">
+        <img id = "logo" src="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\sample images\no poverty.jpg" alt="logo" aria-placeholder="No Poverty">
+        </a>
+
+        <!-- main heading -->
+        <h1 id="mainHeading"><strong>10. Estonia</strong></h1>
+
+        <!-- line breaking -->
+        <br>
+
+        <!-- the main bluring divition for the country flag -->
+        <div class="bg-image"></div>
+
+        <!-- paragraph view -->
+        <div class="bg-text">
+           <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Estonia lies on the eastern shores of the Baltic Sea immediately across the Gulf of
+            Finland, on the level northwestern part 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            of the rising East European platform
+            between 57.3° and 59.5° N and 21.5° and 28.1° E. Average elevation reaches only
+            50 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            metres (164 ft) and the country's highest point is the Suur Munamägi in the
+            southeast at 318 metres (1,043 ft). There are 3,794 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            kilometres (2,357 mi) of
+            coastline marked by numerous bays, straits, and inlets. Estonia's number of islands
+            and islets in 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            the Baltic Sea is estimated at some 2,222, and the country has 2,355
+            including those in lakes. Two of them are large 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            enough to constitute separate
+            counties: Saaremaa and Hiiumaa.
+            A small, recent cluster of meteorite
+            craters, the largest of 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            which is called Kaali is found on Saaremaa, Estonia. Estonia has over 1,400 lakes. Most are very small, with the largest, 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Lake Peipus,
+            being 3,555 km2
+            (1,373 sq mi); it is the fifth largest lake in Europe,
+            and also the
+            largest trans-boundary 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            lake in the whole continent. There are many rivers in the country. The longest of them are
+            Võhandu (162 km or 101 mi), 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Pärnu (144 km or 89 mi), and Põltsamaa (135 km or 84 mi). Estonia has numerous
+            fens and bogs. Forest land covers 50% of Estonia. The most common tree species are pine, spruce and birch.
+           </p>
+
+           <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            As a member of the European Union, Estonia is considered a high-income economy by the World Bank. The GDP
+            (PPP) 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            per capita of the country was $29,312 in 2016 according to the International Monetary Fund.
+            Because of its
+            rapid growth, Estonia 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            has often been described as a Baltic Tiger beside Lithuania and Latvia. Beginning 1 January
+            2011, Estonia adopted the 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            euro and became the 17th eurozone member state.
+            According to Eurostat, Estonia had the lowest ratio of government 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            debt to GDP among EU countries at 6.7% at the end
+            of 2010.A balanced budget, almost non-existent public debt, flat-
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            rate income tax, free trade regime, competitive
+            commercial banking sector, innovative e-Services and even mobile-based 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            services are all hallmarks of Estonia's market
+            economy. Estonia produces about 75% of its consumed electricity. In 2011, 
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about 85% of
+            it was generated with 
+            locally mined oil shale.
+            Alternative energy sources such
+            as wood, peat, and biomass make up approximately 9% of primary energy
+            production. Renewable wind energy was about 6% of total consumption in
+            2009. Estonia imports petroleum products from western Europe and Russia.
+            Estonia imports 100% of its natural gas from Russia.
+            Oil shale energy,
+            telecommunications, textiles, chemical products, banking, services, food and
+            fishing, timber, shipbuilding, electronics, and transportation are key sectors of the
+            economy.The ice-free port of Muuga, near Tallinn, is a modern facility
+            featuring good transshipment capability, a high-capacity grain elevator,
+            chill/frozen storage, and new oil tanker off-loading capabilities. The railroad serves
+            as a conduit between the West, Russia, and other points.
+           </p>
+
+           <h1 id="h1">Statistics: Number of people living in relative poverty falls</h1>
+
+           <p>
+            According to Statistics Estonia, 2.3 percent of the population of Estonia
+            lived in absolute poverty and 20.7 percent lived in relative poverty in
+            2019. Compared to 2018, the share of people at risk of poverty fell by
+            one percentage point. The share of people living in absolute poverty
+            rose by 0.1 percentage point. According to Anet Müürsoo, leading analyst at Statistics Estonia, absolute poverty
+            indicates the share of the population who are not able to meet their basic needs.
+            "Last year, 30,500 people lived in absolute poverty, meaning that their equivalised
+            monthly income was less than €221," Müürsoo said. The relative poverty rate reflects income inequality in a country. In 2019, there
+            were 272,700 persons at risk of poverty, as their equivalised monthly income was
+            less than €611. "Essentially, a person at risk of poverty may have a good income,
+            but the inequality arises from the fact that other people have an even higher
+            income," Müürsoo explained. 
+            Year on year, the at-risk-of-poverty rate has decreased the most among the elderly
+            and children, and it has increased the most among young people. The relative
+            poverty rate is the highest among single persons aged 65 and older.
+            "Compared to 2018, there has been a fall in the number of single parents who are
+            at risk of poverty, while the number of couples with three or more children who
+            are at risk of poverty has increased. The absolute poverty rate has risen among
+            children and young people, but it decreased in the age group 50&#8211;64," Müürsoo
+            added.                                    
+           </p>
+
+           <p>
+            The relative poverty rate is the highest in Hiiu (31.7 percent), Valga (30.3 percent)
+            and Ida-Viru (29.3 percent) counties. It is the lowest in Harju (15.7 percent), Saare
+            (19.2 percent) and Lääne-Viru (19.6 percent) counties. In 2020, the share of people living in deprivation &#8211; i.e. people who cannot afford
+            various items commonly available in the society &#8211; was 6.5 percentof the
+            population, which is 1.2 percentage points less than the year before. The
+            deprivation rate was the highest among 50&#8211;64-year-olds (9 percent) and the
+            lowest among 25&#8211;49-year-olds (4.7 percent). The deprivation rate decreased the
+            most among single persons aged 65 and older and among single parents.
+           </p>
+            
+        </div>
+
+        <!-- divitions to import president photo, country mapped view and the other poverty displaying images -->
+        <div>
+            <img placeholder="Kersti Kaljulaid," class="president" src="https://planetrulers.com/wp-content/uploads/2010/04/estonia-president-Kersti-Kaljulaid-300x250.jpg" alt="sample picture">
+        </div>
+        <div>
+            <img src="./images/estonia/mappedView.jpg" alt="mapped view of finland" class="mapped-view" aria-placeholder="Mapped view of Finland">
+        </div>
+        <div>
+            <img src="./images/estonia/img1.jpg" alt="Poverty in finland" class="poverty-img1" aria-placeholder="poverty in Finland">
+        </div>
+        <div>
+            <img src="./images/estonia/img2.jpg" alt="Poverty in finland" class="poverty-img2" aria-placeholder="poverty in Finland">
+        </div>
+        <div>
+            <img src="./images/estonia/img3.jpg" alt="Poverty in finland" class="poverty-img3" aria-placeholder="poverty in Finland">
+        </div>
+
+        <!-- ending pane -->
+        <div class = "ending">
+            <img id = "endingLogo" src="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\sample images\no poverty.jpg" alt="logo" aria-placeholder="No Poverty" width="200px">
+            <img src="https://cdn.countryflags.com/thumbs/estonia/flag-800.png" id="endingFlag">
+            <h1 class="endingHeading"> &nbsp;&nbsp; PovertY</h1>
+            <h2 class="endingQuote">&nbsp;&nbsp;&nbsp; Treating is better than worrying</h2>
+            <br><br><br><br>
+            <h2>&nbsp;&nbsp; Testimonial</h2>
+            <ul>
+                <li>
+                    Wikipedia contributors. (2022a, January 18). <br>
+                    Estonia. Wikipedia. Retrieved January 19, 2022, from <br>
+                    <a target = "_blank" href="https://en.wikipedia.org/wiki/Estonia">https://en.wikipedia.org/wiki/Estonia</a>
+                </li>
+
+                <li>
+                    Statista. (2021, August 19). <br>
+                    Poverty rate in Estonia 1997&#8211;2020. Retrieved January 19, 2022, from <br>
+                    <a target = "_blank" href="https://www.statista.com/statistics/1258316/estonia-poverty-rates/#:%7E:text=In%202019%2C%20Estonia’s%20absolute%20poverty,threat%20to%20human%20psychophysical%20development.">https://www.statista.com/statistics/1258316/estonia-poverty-rates/#:%7E:text=In%202019%2C%20Estonia&apos;s%20absolute%20poverty,threat%20to%20human%20psychophysical%20development.</a>"
+                </li>
+
+                <li>
+                    ERR News. (2020, December 18). <br>
+                    Statistics: Number of people living in relative poverty falls. ERR. Retrieved January 19, 2022, from <br>
+                    <a target = "_blank" href="https://news.err.ee/1212499/statistics-number-of-people-living-in-relative-poverty-falls">https://news.err.ee/1212499/statistics-number-of-people-living-in-relative-poverty-falls</a>
+                </li>
+
+                <li>
+                    Thelwell, K. (2019, November 21). <br>
+                    Top 10 Facts About Living Conditions in Estonia. The Borgen Project. Retrieved January 19, 2022, from <br>
+                    <a target = "_blank" href="https://borgenproject.org/top-10-facts-about-living-conditions-in-estonia/">https://borgenproject.org/top-10-facts-about-living-conditions-in-estonia/</a>
+                </li>
+            </ul>
+        </div>
+        
+    </body>
+</html>

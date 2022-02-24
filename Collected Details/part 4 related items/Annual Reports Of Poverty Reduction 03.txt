@@ -1,0 +1,13 @@
+21.korea       https://www.adb.org/sites/default/files/institutional-document/721656/eakpf-annual-report-2020.pdf
+22.iceland     https://www.eapn.eu/wp-content/uploads/2020/09/EAPN-EAPN-Iceland-Poverty-Watch-2020_ENG-4681.pdf
+23chile        https://www.sgi-network.org/docs/2020/country/SGI2020_Chile.pdf
+24.Denmark     https://ec.europa.eu/info/sites/default/files/2020-european_semester_country-report-denmark_en.pdf
+25.serbia      https://unsdg.un.org/download/3610/64750
+26.australia   https://povertyandinequality.acoss.org.au/wp-content/uploads/2020/02/Poverty-in-Australia-2020_Part-1_Overview.pdf
+27.israel      https://www.oecd.org/economy/surveys/Israel-2020-OECD-economic-survey-overview.pdf
+28.romania     https://ec.europa.eu/info/sites/default/files/2020-european_semester_country-report-romania_en.pdf
+29.srilanka    https://www.treasury.gov.lk/api/file/f64f9700-0402-49d0-9f38-f28629a8c379
+30.lebanan     https://lebanon.un.org/sites/default/files/2021-05/2100336%20UNCT%20Annual%20Report%20-%20Lebanon%20-FINAL%20-%20WEB.pdf
+31.nepal       https://databank.worldbank.org/data/download/poverty/987B9C90-CB9F-4D93-AE8C-750588BF00QA/SM2020/Global_POVEQ_NPL.pdf
+32.qatar       https://www.imf.org/external/pubs/ft/ar/2020/eng/downloads/imf-annual-report-2020.pdf
+33.saudiarabia https://www.isdb.org/sites/default/files/media/documents/2021-09/2020%20IsDB%20Annual%20Report%20FINAL%20QRC%20%281%29.pdf

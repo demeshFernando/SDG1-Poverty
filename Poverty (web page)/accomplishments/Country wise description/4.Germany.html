@@ -1,0 +1,416 @@
+<html>
+    <head>
+        <title>Poverty: Germany</title>
+        <!-- importign the css file caled defaultDecoration -->
+        <link rel="stylesheet" href="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\defaultDecorations.css">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+
+        <style>
+
+            /* class called bg-image */
+            .bg-image
+            {
+                background-image: url("https://cdn.countryflags.com/thumbs/germany/flag-800.png");
+                filter: blur(8px);
+                -webkit-filter: blur(8px);
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100% 70%;
+            }
+
+            /* importing class called bg-text */
+            .bg-text
+            {
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+                color: white;
+                font-weight: bold;
+                border: 3px solid #000000;
+                position: absolute;
+                font-size: 20px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -15%);
+                z-index: 2;
+                width: 90%;
+                padding: 20px;
+                text-align: center;
+            }
+
+            /* final editing for the ending div */
+            .ending{
+                background-color: rgb(4, 25, 56); 
+                background-color: rgba(4, 25, 56, 0.4);
+                border-top: 5px solid black;
+                color: white;
+                top: 1050px;
+                height: 400px   ;
+                position: relative;
+            }
+
+            /* the ending heading poverty */
+            .endingHeading
+            {
+                font-family: 'Akaya Telivigala', cursive;
+                font-size: 100px;
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+                color: rgb(9, 16, 27);
+            }
+
+            /* the quote treating is better than worrying */
+            .endingQuote{
+                font-family: 'Syne Tactile', cursive;
+                position: absolute;
+                font-size: 30px;
+                left: 195px;
+                top: 70px;
+            }
+
+            /* country flag */
+            #endingFlag{
+                float: right;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                width: 250px;
+            }
+
+            /* ending poverty logo */
+            #endingLogo{
+                float: left;
+                position: relative;
+                border: 3px solid white;
+                left: 10px;
+                top: 10px;
+            }
+
+            /* editing for the president photo */
+            .president{
+                border: 10px solid black;
+                width: 300px;
+                height: 400px;
+                position: absolute;
+                top: 360px;
+                z-index: 2;
+            }
+
+            /* Editing for the mapped view */
+            .mapped-view{
+                border: 5px solid rgb(4, 25, 56);
+                width: 300px;
+                position: absolute;
+                z-index: 1;
+                top: 500px;
+                right: 10px;
+            }
+
+            /* poverty image 1 */
+            .poverty-img1{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1000px;
+                left: 10px;
+            }
+
+            /* poverty image 2 */
+            .poverty-img2{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1500px;
+                left: 1000px;
+            }
+
+            /* poverty image 3 */
+            .poverty-img3{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1300px;
+                right: 10px;
+            }
+
+            /* poverty image 4 */
+            .poverty-img4{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 3;
+                top: 3760px;
+                right: 30px;
+            }
+
+            /* poverty image 1 */
+            .img1
+            {
+                position: relative;
+                right: -160px;
+            }
+
+            /* main logo design */
+            #logo{
+                float: right;
+                width: 100px;
+                position: absolute;
+                top: 15px;
+                right: 10px;
+            }
+
+            /* adding the hover effect */
+            #logo:hover
+            {
+                opacity: 0.7;
+            }
+
+            /* finland main heading */
+            #mainheading{
+                font-size: 50px;
+                text-indent: 50px;
+                padding: 0px;
+                margin: 0px;
+                border-style: none;
+            }
+
+            /* color for heading in bg-text div pane */
+            #h1
+            {
+                color: #3b8ab8;
+            }
+
+            /* google font for mainheading */
+            #mainHeading{
+                font-family: 'Redressed', cursive;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- adding the panels that are colored at the begining of the web page -->
+        <div id = "color"></div>
+        <div id = "color1"></div>
+        <div id = "color2"></div>
+        <div id = "color3"></div>
+        <div id = "color4"></div>
+        <div id = "color5"></div>
+        <div id = "color6"></div>
+        <div id = "color7"></div>
+        <div id = "color8"></div>
+        <div id = "color9"></div>
+        <div id = "color10"></div>
+        <div id = "color11"></div>
+        <div id = "color12"></div>
+        <div id = "color13"></div>
+        <div id = "color14"></div>
+        <div id = "color15"></div>
+        <div id = "color16"></div>
+        <br>
+
+        <!-- importing logo and linking it with home page -->
+        <a href="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\home.html">
+        <img id = "logo" src="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\sample images\no poverty.jpg" alt="logo" aria-placeholder="No Poverty">
+        </a>
+
+        <!-- main heading -->
+        <h1 id="mainHeading"><strong>4. Germany</strong></h1>
+
+        <!-- line breaking -->
+        <br>
+
+        <!-- the main bluring divition for the country flag -->
+        <div class="bg-image"></div>
+
+        <!-- paragraph view -->
+        <div class="bg-text">
+            <p>
+                Germany is the seventh-largest country in Europe. bordering Denmark to
+                the north, Poland and the Czech Republic to the east, Austria to the southeast,
+                and Switzerland to the south-southwest. France, Luxembourg and Belgium are
+                situated to the west, with the Netherlands to the northwest. Germany is also
+                bordered by the North Sea and, at the north-northeast, by the Baltic Sea.
+                German territory covers 357,022 km2
+                (137,847 sq mi), consisting of
+                348,672 km2
+                (134,623 sq mi) of land and 8,350 km2
+                (3,224 sq mi) of water.
+                Elevation ranges from the mountains of the Alps (highest point: the Zugspitze
+                at 2,963 metres or 9,721 feet) in the south to the shores of the North Sea
+                (Nordsee) in the northwest and the Baltic Sea (Ostsee) in the northeast. The
+                forested uplands of central Germany and the lowlands of northern Germany
+                (lowest point: in the municipality Neuendorf-Sachsenbande, Wilstermarsch at
+                3.54 metres or 11.6 feet below sea level) are traversed by such major rivers
+                as the Rhine, Danube and Elbe. Significant natural resources include iron ore,
+                coal, potash, timber, lignite, uranium, copper, natural gas, salt, and nickel.
+ 
+            </p>
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Germany has a social market economy with a highly skilled labour force, a low level of corruption, and a high level of innovation. 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                It is the world's third-largest exporter and third largest importer of goods, and has the largest economy in Europe, which is also 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                the world's fourth-largest economy by nominal GDP, and the fifth-largest by PPP.
+                [169] Its GDP per capita measured in 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                purchasing power standards amounts to 121% of the EU27 average (100%). The service sector contributes approximately 69% of 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                the total GDP, industry 31%, and agriculture 1% as of 2017. The unemployment rate published by Eurostat amounts to 3.2% as of January 2020, which is the fourth-lowest in the EU.[171]
+
+            </p>
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                The number of people at risk of falling into poverty in Germany has risen in all the country's western states and Berlin 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                over the past decade, according to government figures released on Thursday.
+                In total, 15.9% of Germany's population is at 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                risk of falling below the poverty threshold — up from 15.5% the year before, the Federal Statistical Office found.
+                The 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                government classifies someone as being at risk of falling into poverty if their income is less than 60% of the average. In 2019, 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                this was calculated as less than €1,074 ($1,271) each month.
+                Read more: 1 in 5 children in Germany grow up in poverty
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                The outlook for people in the at-risk category could be set to worsen, after 6.7 million people were furloughed and thousands lost jobs during the coronavirus pandemic.
+            </p>
+
+            <h1 id="h1">A decade of rising poverty</h1>
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                The northern city of Bremen reported the largest percentage of people at risk of poverty at 24.9%. This was a ten-year increase from 20.1% of its population.
+                Germany's most populous state, North Rhine-Westphalia, saw the percentage of those in the at-risk group grow from 15.2% in 2009 to 18.5% last year.
+
+            </p>
+
+            <ol>
+                <li>
+                    <h2 id="h1">In Germany, poverty is on the rise.</h2>
+
+                    <p>
+                        Since reunification, poverty is increasing, with Berlin defining the poverty threshold as anything less than 60% of the average income. In 2013, that figure was 15.5% of the total population.  In the years since, it has increased to 15.9%. From an outsider&apos;s perspective, this view of Germany seems contradictory. According to the World Bank, Germany&apos;s poverty rate in 2016 — defined as $1.90 a day in 2011 — was 0%. This compared well with the United States, which had a poverty rate of 1% by the same metric.
+                    </p>
+                </li>
+
+                <li>
+                    <h2 id="h1">Germany retains a high standard of living. </h2>
+
+                    <p>
+                        Pundits often overlook Germany&apos;s high standard of living. This fact makes poverty comparisons confusing and difficult. Compared to most nations, Germany is fairly well off. The country&apos;s GDP per capita adjusted for purchasing power parity was $53,694 in 2020, higher than the United Kingdom, France and Italy.
+                    </p>
+                </li>
+
+                
+                
+                <li>
+                    <h2 id="h1">German inequality is serious but manageable. </h2>
+
+                    <p>
+                        Compared to the United States, Germany has lower levels of income inequality. In the same vein, however, the situation in Germany has not significantly improved since the 1960s. Income inequality remains much the same as it was several decades ago. Despite significant investment in areas like universal healthcare and free college, the German government has thus far failed to reduce income inequality by large margins.
+                    </p>
+                </li>
+
+                <li>
+                    <h2 id="h1">Germany has a life expectancy well suited to a developed nation.</h2>
+
+                    <p>
+                        Germany has one of the highest life expectancies in the world. At 81 years in 2019, it surpasses the United States, which had an average life expectancy of 79 years.
+                    </p>
+                </li>
+            </ol>
+
+            <p>
+                The overall outlook for Germany is mixed. Its long-term prospects remain uncertain, with a steady yet slow growth rate and hard-set levels of income inequality. Under the surface, poverty continues to brew. But, all is not lost. The country benefits from an extremely high life expectancy and average per capita GDP. Furthermore, Germans are innovative people, building one of the world&apos;s most successful societies in the post-World War II period. With more adaptability and innovation, the possibilities of poverty reduction are limitless.
+            </p>
+
+        </div>
+
+        <!-- divitions to import president photo, country mapped view and the other poverty displaying images -->
+        <div>
+            <img placeholder="Angela Merkel" class="president" src="https://planetrulers.com/wp-content/uploads/2010/04/german-Chancello_angela_merkel.jpg" alt="sample picture">
+        </div>
+        <div>
+            <img src="./images/germany/mappedView.jpg" alt="mapped view of sweden" class="mapped-view" aria-placeholder="Mapped view of Finland">
+        </div>
+        <div>
+            <img src="./images/germany/img3.jpg" alt="Poverty in finland" class="poverty-img1" aria-placeholder="poverty in Finland">
+        </div>
+        <div>
+            <img src="./images/germany/img1.jpg" alt="Poverty in finland" class="poverty-img2" aria-placeholder="poverty in Finland">
+        </div>
+        <div>
+            <img src="./images/germany/img2.jpg" alt="Poverty in finland" class="poverty-img3" aria-placeholder="poverty in Finland">
+        </div>
+
+        <!-- ending pane -->
+        <div class = "ending">
+            <img id = "endingLogo" src="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\sample images\no poverty.jpg" alt="logo" aria-placeholder="No Poverty" width="200px">
+            <img src="https://cdn.countryflags.com/thumbs/germany/flag-800.png" id="endingFlag">
+            <h1 class="endingHeading"> &nbsp;&nbsp; PovertY</h1>
+            <h2 class="endingQuote">&nbsp;&nbsp;&nbsp; Treating is better than worrying</h2>
+            <br><br><br><br>
+            <h2>&nbsp;&nbsp; Testimonial</h2>
+            <ul>
+                <li>
+                    Deutsche Welle (www.dw.com). (n.d.).  <br>
+                    Poverty threatens ever more people in Germany. DW.COM. Retrieved January 15, 2022, from <br>
+                    <a href="https://www.dw.com/en/poverty-in-germany-on-the-rise/a-54553080" target="_blank">https://www.dw.com/en/poverty-in-germany-on-the-rise/a-54553080</a> 
+                </li>
+
+                <li>
+                    Olmstead, C. (2021, September 21).<br>
+                    5 Facts About Poverty in Germany. The Borgen Project. Retrieved January 15, 2022, from <br>
+                    <a href="https://borgenproject.org/about-poverty-in-germany/" target="_blank">https://borgenproject.org/about-poverty-in-germany/</a> 
+                </li>
+            </ul>
+        </div>
+        
+    </body>
+</html>

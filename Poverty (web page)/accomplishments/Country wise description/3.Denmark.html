@@ -1,0 +1,381 @@
+<html>
+    <head>
+        <title>Poverty: Denmark</title>
+        <!-- importign the css file caled defaultDecoration -->
+        <link rel="stylesheet" href="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\defaultDecorations.css">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+
+        <style>
+
+            /* class called bg-image */
+            .bg-image
+            {
+                background-image: url("https://www.countryflags.com/wp-content/uploads/denmark-flag-png-large.png");
+                filter: blur(8px);
+                -webkit-filter: blur(8px);
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100% 70%;
+            }
+
+            /* importing class called bg-text */
+            .bg-text
+            {
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+                color: white;
+                font-weight: bold;
+                border: 3px solid #000000;
+                position: absolute;
+                font-size: 20px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -15%);
+                z-index: 2;
+                width: 90%;
+                padding: 20px;
+                text-align: center;
+            }
+
+            /* final editing for the ending div */
+            .ending{
+                background-color: rgb(4, 25, 56); 
+                background-color: rgba(4, 25, 56, 0.4);
+                border-top: 5px solid black;
+                color: white;
+                top: 1150px;
+                height: 400px   ;
+                position: relative;
+            }
+
+            /* the ending heading poverty */
+            .endingHeading
+            {
+                font-family: 'Akaya Telivigala', cursive;
+                font-size: 100px;
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+                color: rgb(9, 16, 27);
+            }
+
+            /* the quote treating is better than worrying */
+            .endingQuote{
+                font-family: 'Syne Tactile', cursive;
+                position: absolute;
+                font-size: 30px;
+                left: 195px;
+                top: 70px;
+            }
+
+            /* country flag */
+            #endingFlag{
+                float: right;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                width: 250px;
+            }
+
+            /* ending poverty logo */
+            #endingLogo{
+                float: left;
+                position: relative;
+                border: 3px solid white;
+                left: 10px;
+                top: 10px;
+            }
+
+            /* editing for the president photo */
+            .president{
+                border: 10px solid black;
+                width: 300px;
+                position: absolute;
+                top: 440px;
+                z-index: 2;
+            }
+
+            /* Editing for the mapped view */
+            .mapped-view{
+                border: 5px solid rgb(4, 25, 56);
+                width: 300px;
+                position: absolute;
+                z-index: 1;
+                top: 500px;
+                right: 10px;
+            }
+
+            /* poverty image 1 */
+            .poverty-img1{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1400px;
+                left: 10px;
+            }
+
+            /* poverty image 2 */
+            .poverty-img2{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1600px;
+                left: 500px;
+            }
+
+            /* poverty image 3 */
+            .poverty-img3{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1500px;
+                right: 10px;
+            }
+
+            /* poverty image 4 */
+            .poverty-img4{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 3;
+                top: 3760px;
+                right: 30px;
+            }
+
+            /* poverty image 1 */
+            .img1
+            {
+                position: relative;
+                right: -160px;
+            }
+
+            /* main logo design */
+            #logo{
+                float: right;
+                width: 100px;
+                position: absolute;
+                top: 15px;
+                right: 10px;
+            }
+
+            /* adding the hover effect */
+            #logo:hover
+            {
+                opacity: 0.7;
+            }
+
+            /* finland main heading */
+            #mainheading{
+                font-size: 50px;
+                text-indent: 50px;
+                padding: 0px;
+                margin: 0px;
+                border-style: none;
+            }
+
+            /* color for heading in bg-text div pane */
+            #h1
+            {
+                color: #3b8ab8;
+            }
+
+            /* google font for mainheading */
+            #mainHeading{
+                font-family: 'Redressed', cursive;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- adding the panels that are colored at the begining of the web page -->
+        <div id = "color"></div>
+        <div id = "color1"></div>
+        <div id = "color2"></div>
+        <div id = "color3"></div>
+        <div id = "color4"></div>
+        <div id = "color5"></div>
+        <div id = "color6"></div>
+        <div id = "color7"></div>
+        <div id = "color8"></div>
+        <div id = "color9"></div>
+        <div id = "color10"></div>
+        <div id = "color11"></div>
+        <div id = "color12"></div>
+        <div id = "color13"></div>
+        <div id = "color14"></div>
+        <div id = "color15"></div>
+        <div id = "color16"></div>
+        <br>
+
+        <!-- importing logo and linking it with home page -->
+        <a href="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\home.html">
+        <img id = "logo" src="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\sample images\no poverty.jpg" alt="logo" aria-placeholder="No Poverty">
+        </a>
+
+        <!-- main heading -->
+        <h1 id="mainHeading"><strong>3. Denmark</strong></h1>
+
+        <!-- line breaking -->
+        <br>
+
+        <!-- the main bluring divition for the country flag -->
+        <div class="bg-image"></div>
+
+        <!-- paragraph view -->
+        <div class="bg-text">
+            <p>
+                Located in Northern Europe, Denmark consists of the peninsula of Jutland and 443 named islands 
+                (1,419 islands above 100 square metres (1,100 sq ft) in total Of these, 74 are inhabited 
+                (January 2015),[56] with the largest being Zealand, the North Jutlandic Island, and Funen. The island of Bornholm is located east of the rest of the country, in the Baltic Sea. Many of the larger islands are connected by bridges; the resound Bridge connects Zealand with Sweden; the Great Belt Bridge connects Funen with Zealand; and the Little Belt Bridge connects Jutland with Funen. Ferries or small aircraft connect to the smaller islands. The four cities with populations over 100,000 are the capital Copenhagen on Zealand; Aarhus and Aalborg in Jutland; and Odense on Funen.
+                Denmark has a developed mixed economy that is classed as a high-income economy by the World Bank. In 2017, it ranked 16th in the world in terms of gross national income (PPP) per capita and 10th in nominal GNI per capita. Denmark's economy stands out as one of the most free in the Index of Economic Freedom and the Economic Freedom of the World. It is the 10th most competitive economy in the world, and 6th in Europe, according to the World Economic Forum in its Global Competitiveness Report 2018.
+                Denmark has the fourth highest ratio of tertiary degree holders in the world. The country ranks highest in the world for workers' rights. GDP per hour worked was the 13th highest in 2009. The country has a market income inequality close to the OECD average, but after taxes and public cash transfers the income inequality is considerably lower. According to Eurostat, Denmark's Gini coefficient for disposable income was the 7th-lowest among 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                EU countries in 2017. According to the International Monetary Fund, Denmark has the world's highest minimum wage. As 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Denmark has no minimum wage legislation, the high wage floor has been attributed to the power of trade unions. For example, as 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                the result of a collective bargaining agreement between the 3F trade union and the employers group Horesta, workers at 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                McDonald's and other fast food chains make the equivalent of US$20 an hour, which is more than double what their counterparts 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                earn in the United States, and have access to five weeks' paid vacation, parental leave and a pension plan. Union density in 2015 was 68%.
+ 
+            </p>
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                COPENHAGEN — The small country of Denmark is often viewed as a model society for metrics like gross national 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                happiness and high employment rates. Their poverty reduction tactics are equally successful and foreign governments 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                may be able to pick up a few tips on how Denmark combats poverty rates.
+                Overall employment in a country is one way to 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                measure success of poverty reduction methods as well as minimum wage and wage dispersion statistics. According to an 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;international group called Organization for Economic Co-operation and Development (OECD), Denmark’s employment 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                rates are currently measured at around 72.8 percent placing Denmark 7th highest on a global level and well above the 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                OECD global average. So, how does Denmark combat poverty rates nationally?
+                One element of the Danish government 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                that contributes to their high living standards and low poverty rates is their prioritization of social welfare and public 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                expenditure. Unlike other countries where economic development and industrialization may take precedent to social 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                programs, Danish public spending on social
+                protection is the 2nd highest globally, accounting for 30.8 percent of the 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                country’s GDP. Further, it comes as no surprise that they exceed most international averages in an area that is seen as a top priority.
+
+            </p>
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Beyond prioritization of the issue, Denmark combats poverty rates through the unification and centralization of social programs. While workers unions often serve independently between companies in other countries, Denmark strives to unify workers unions for increased negotiation power.
+                Danish Employers&apos; Confederation was created in order to leverage wages among large employers for minimum wages, hours of work, cost of living compensation and certain social benefits. As a result, the Confederation has been able to establish unified systems across the entire country for daily allowances for sickness, maternity and work accidents.
+                Most large companies belong to this group and comply with the group&apos;s negotiations in order to increase employee satisfaction and living standards across the board. The Confederation works to increase wages while maintaining employment rates for all Danes.
+                Beyond increasing wages for the middle class, the group also strives to increase wages for unskilled or low-skilled workers at a rate much higher than that of skilled workers. For example, the group was able to negotiate a 1 percent increase in total wages for skilled workers and a 2 percent increase in wages for untrained workers. This unproportionate increase further allows unskilled workers to escape from poverty and low standards of living in Denmark.
+                Unlike other countries that view poverty as an inevitable aspect of society, Denmark sees poverty as anachronistic, or belonging to an earlier period in time and something that no longer needs to exist in the current era. The country acknowledges that they need to maintain economic growth and competition but that this competition does not need to come at the expense of low class citizens.
+                In order to help lower class citizens become flexible, dependable and skilled workers, the Danish government sponsors vocational programs to train unskilled workers in the areas they wish to have salaried careers. By pairing these sponsored services with workers’ interest areas, workers are motivated to move up the social ladder and become active, skilled workers within the Danish economy.
+                Denmark combats poverty rates through prioritization of the national issue combined with the implementation of a number of social programs aimed at increasing employment and eliminating unlivable working wages. Central organization of these programs is key to establishing negotiating power among large employers meanwhile ensuring job security of workers. Further, training programs allow citizens to develop skill and passion for their work in order to contribute and participate in the economy.
+
+            </p>
+
+            <img src="./images/denmark/staiistics.png" alt="statistics">
+        </div>
+
+        <!-- divitions to import president photo, country mapped view and the other poverty displaying images -->
+        <div>
+            <img placeholder="President of sweden: Sauli Niinistö" class="president" src="https://planetrulers.com/wp-content/uploads/2010/04/denmark_margrethe-192x250.jpg" alt="sample picture">
+        </div>
+        <div>
+            <img src="./images/denmark/mappedView.jpg" alt="mapped view of sweden" class="mapped-view" aria-placeholder="Mapped view of Finland">
+        </div>
+        <div>
+            <img src="./images/denmark/img1.jpg" alt="Poverty in finland" class="poverty-img1" aria-placeholder="poverty in Finland">
+        </div>
+        <div>
+            <img src="./images/denmark/img2.jpg" alt="Poverty in finland" class="poverty-img2" aria-placeholder="poverty in Finland">
+        </div>
+        <div>
+            <img src="./images/denmark/img3.jpg" alt="Poverty in finland" class="poverty-img3" aria-placeholder="poverty in Finland">
+        </div>
+
+        <!-- ending pane -->
+        <div class = "ending">
+            <img id = "endingLogo" src="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\sample images\no poverty.jpg" alt="logo" aria-placeholder="No Poverty" width="200px">
+            <img src="https://www.countryflags.com/wp-content/uploads/denmark-flag-png-large.png" alt="Country Flag" id="endingFlag">
+            <h1 class="endingHeading"> &nbsp;&nbsp; PovertY</h1>
+            <h2 class="endingQuote">&nbsp;&nbsp;&nbsp; Treating is better than worrying</h2>
+            <br><br><br><br>
+            <h2>&nbsp;&nbsp; Testimonial</h2>
+            <ul>
+                <li>
+                    Coiro, S. (2017, August 29).  <br>
+                    Denmark Combats Poverty Rates with Social Welfare Prioritization. BORGEN. Retrieved January 15, 2022, from  <br>
+                    <a target="_blank" href="https://www.borgenmagazine.com/denmark-combats-poverty-rates/" target="_blank">https://www.borgenmagazine.com/denmark-combats-poverty-rates/</a> 
+                </li>
+
+                <li>
+                    TRADING ECONOMICS. (n.d.).   <br>
+                    Denmark - At-risk-of-poverty rate - 2022 Data 2023 Forecast 2005–2020 Historical. Retrieved January 15, 2022, from   <br>
+                    <a target="_blank" href="https://tradingeconomics.com/denmark/at-risk-of-poverty-rate-eurostat-data.html" target="_blank">https://tradingeconomics.com/denmark/at-risk-of-poverty-rate-eurostat-data.html</a> 
+                </li>
+            </ul>
+        </div>
+        
+    </body>
+</html>

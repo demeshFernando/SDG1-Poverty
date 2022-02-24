@@ -1,0 +1,402 @@
+<html>
+    <head>
+        <title>Poverty: Austria</title>
+        <!-- importign the css file caled defaultDecoration -->
+        <link rel="stylesheet" href="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\defaultDecorations.css">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+
+        <!-- Importing google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
+
+        <style>
+
+            /* class called bg-image */
+            .bg-image
+            {
+                background-image: url("https://cdn.countryflags.com/thumbs/austria/flag-800.png");
+                filter: blur(8px);
+                -webkit-filter: blur(8px);
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100% 70%;
+            }
+
+            /* importing class called bg-text */
+            .bg-text
+            {
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+                color: white;
+                font-weight: bold;
+                border: 3px solid #000000;
+                position: absolute;
+                font-size: 20px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -17%);
+                z-index: 2;
+                width: 90%;
+                padding: 20px;
+                text-align: center;
+            }
+
+            /* final editing for the ending div */
+            .ending{
+                background-color: rgb(4, 25, 56); 
+                background-color: rgba(4, 25, 56, 0.4);
+                border-top: 5px solid black;
+                color: white;
+                top: 1000px;
+                height: 400px   ;
+                position: relative;
+            }
+
+            /* the ending heading poverty */
+            .endingHeading
+            {
+                font-family: 'Akaya Telivigala', cursive;
+                font-size: 100px;
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+                color: rgb(9, 16, 27);
+            }
+
+            /* the quote treating is better than worrying */
+            .endingQuote{
+                font-family: 'Syne Tactile', cursive;
+                position: absolute;
+                font-size: 30px;
+                left: 195px;
+                top: 70px;
+            }
+
+            /* country flag */
+            #endingFlag{
+                float: right;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                width: 250px;
+            }
+
+            /* ending poverty logo */
+            #endingLogo{
+                float: left;
+                position: relative;
+                border: 3px solid white;
+                left: 10px;
+                top: 10px;
+            }
+
+            /* editing for the president photo */
+            .president{
+                border: 10px solid black;
+                width: 300px;
+                height: 400px;
+                position: absolute;
+                top: 350px;
+                z-index: 2;
+            }
+
+            /* Editing for the mapped view */
+            .mapped-view{
+                border: 5px solid rgb(4, 25, 56);
+                width: 300px;
+                position: absolute;
+                z-index: 1;
+                top: 890px;
+                right: 10px;
+            }
+
+            /* poverty image 1 */
+            .poverty-img1{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1000px;
+                left: 10px;
+            }
+
+            /* poverty image 2 */
+            .poverty-img2{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1200px;
+                left: 10px;
+            }
+
+            /* poverty image 3 */
+            .poverty-img3{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 1;
+                top: 1000px;
+                left: 450px;
+            }
+
+            /* poverty image 4 */
+            .poverty-img4{
+                border: 10px solid rgb(4, 25, 56);
+                width: 400px;
+                position: absolute;
+                z-index: 3;
+                top: 3760px;
+                right: 30px;
+            }
+
+            /* poverty image 1 */
+            .img1
+            {
+                position: relative;
+                right: -160px;
+            }
+
+            /* main logo design */
+            #logo{
+                float: right;
+                width: 100px;
+                position: absolute;
+                top: 15px;
+                right: 10px;
+            }
+
+            /* adding the hover effect */
+            #logo:hover
+            {
+                opacity: 0.7;
+            }
+
+            /* finland main heading */
+            #mainheading{
+                font-size: 50px;
+                text-indent: 50px;
+                padding: 0px;
+                margin: 0px;
+                border-style: none;
+            }
+
+            /* color for heading in bg-text div pane */
+            #h1
+            {
+                color: #3b8ab8;
+            }
+
+            /* google font for mainheading */
+            #mainHeading{
+                font-family: 'Redressed', cursive;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- adding the panels that are colored at the begining of the web page -->
+        <div id = "color"></div>
+        <div id = "color1"></div>
+        <div id = "color2"></div>
+        <div id = "color3"></div>
+        <div id = "color4"></div>
+        <div id = "color5"></div>
+        <div id = "color6"></div>
+        <div id = "color7"></div>
+        <div id = "color8"></div>
+        <div id = "color9"></div>
+        <div id = "color10"></div>
+        <div id = "color11"></div>
+        <div id = "color12"></div>
+        <div id = "color13"></div>
+        <div id = "color14"></div>
+        <div id = "color15"></div>
+        <div id = "color16"></div>
+        <br>
+
+        <!-- importing logo and linking it with home page -->
+        <a href="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\home.html">
+        <img id = "logo" src="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\sample images\no poverty.jpg" alt="logo" aria-placeholder="No Poverty">
+        </a>
+
+        <!-- main heading -->
+        <h1 id="mainHeading"><strong>5. Austria</strong></h1>
+
+        <!-- line breaking -->
+        <br>
+
+        <!-- the main bluring divition for the country flag -->
+        <div class="bg-image"></div>
+
+        <!-- paragraph view -->
+        <div class="bg-text">
+            <p>
+                Austria is a largely mountainous country because of its
+                location in the Alps.
+                The Central Eastern Alps, Northern
+                Limestone Alps and Southern Limestone Alps are all partly in
+                Austria. Of the total area of Austria (84,000 km2 or
+                32,433 sq mi), only about a quarter can be considered low
+                lying, and only 32% of the country is below 500 metres
+                (1,640 ft). The Alps of western Austria give way somewhat
+                into low lands and plains in the eastern part of the country.
+                Austria lies between latitudes 46° and 49° N, and longitudes
+                9° and 18° E.
+                It can be divided into five areas, the biggest being the Eastern
+                Alps, which constitute 62% of the nation's total area. The
+                Austrian foothills at the base of the Alps and the Carpathians
+                account for around 12% and the foothills in the east and areas surrounding the periphery of the Pannoni
+                low country amount to about 12% of the total landmass. The second greater mountain area (much lower
+                than the Alps) is situated in the north. Known as the Austrian granite plateau, it is located in the central
+                area of the Bohemian Mass and accounts for 10% of Austria. The Austrian portion of the Vienna basin
+                makes up the remaining 4%.
+ 
+            </p>
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Austria consistently ranks high in terms of GDP per capita,
+                due to its highly industrialized economy,
+                and well-developed social 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                market economy. Until the 1980s, many of Austria's largest industry firms were
+                nationalised; in recent years, however, 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                privatisation has reduced state holdings to a level comparable to
+                other European economies. Labour movements are particularly 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                influential, exercising large influence on
+                labour politics and decisions related to the expansion of the economy. Next to a 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                highly developed
+                industry, international tourism is the most important part of the economy of Austria.
+                Germany has 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                historically been the main trading partner
+                of Austria, making it vulnerable to rapid changes in the
+                German economy. Since 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Austria became a member state
+                of the European Union, it has gained closer ties to other
+                EU economies, reducing its 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                economic dependence on
+                Germany. In addition, membership of the EU has drawn
+                an influx of foreign investors attracted by 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Austria's access
+                to the single European market and proximity to the
+                aspiring economies of the European Union. Growth in
+                GDP 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                reached 3.3% in 2006.[139] At least 67% of Austria's
+                imports come from other European Union member
+                states.
+            </p>
+
+            <h1 id="h1">Poverty and social inclusion</h1>
+
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Based on EU-SILC (European Community Statistics on Income and Living Conditions) each year results on poverty and social 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                inclusion are published. Key indicators for Austria from EU-SILC 2020 and earlier years are available from the table 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                below.
+                In 2020 17.5% of the population (1 529 000 people) were considered at-risk-of-poverty or social exclusion in terms of the 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Europe 2020 strategy. 2.7% of the population were severely materially deprived, 13.9% were considered at-risk-of-poverty and 7.1% of those below 60 years of age were living in households with very low work intensity.
+                The Europe 2020 strategy for smart, sustainable and inclusive growth has been aiming to lift at least 20 million people out of the risk of poverty and social exclusion within ten years (observation period: 2008-2018). For Austria this meant a reduction of the target group by 235 000 people. The at-risk-of-poverty or social exclusion rate dropped from 20.6% in 2008 to 17.5% in 2018, that was 187 000 persons less than in 2008. The targeted decrease was therefore reached by 80%. Another drop to 16.9% in 2019 (or by 227 000 people compared to 2008) resulted in the targeted decrease being reached one year after the target year by 97%. Recently, in 2020 the risk of poverty and social exclusion has increased slightly and not significantly to 17.5% or 1 529 000 people (that is a decrease compared to 2008 by 170 000 persons).
+            </p>
+
+            <a target="_blank" href="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Collected Details\part 3 related items\6. Austria\risk-of-poverty_or_social_exclusion_by_age_and_gender_2020.pdf">Risk of social poverty or social exclusion by age and gender 2020</a>
+            <br><br>
+            <a target="_blank" href="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Collected Details\part 3 related items\6. Austria\selected_indicators_on_poverty_and_social_inclusion_2020.pdf">Selected Indicators on Poverty and Social Inclusion 2020</a>
+
+            <p>
+                According to the Organisation for Economic Cooperation and Development (OECD), the poverty rate is the ratio of the number of people whose earnings fall below the poverty line. The poverty line is half the median household revenue of the total population. The World Factbook shows poverty is on the minor end of the spectrum in Austria but, despite low percentages, continues to exist.
+                Children 17 years old and younger are most affected. A 2016 OECD report shows that 9.1 percent of Austrian children live in a household with a disposable income of less than half of the Austrian median income. This number was seven percent in 2007. It is also interesting to note that among children living in Austria, 17.5 percent say that they have been bullied in the last two months. This is the second highest share in the OECD area.
+                In an evaluation of Austria&apos;s well-being for 2016, the country performed close to the OECD average. Austrian households have higher net adjusted disposable income and experience lower work insecurity.
+                However, The Economic Survey of Austria of 2017 shows Austria is struggling to adjust towards digitalization. Digital transformation is altering the relationship between the wealthy and the poor. Well-educated people are adjusting quickly to global trends in technology, while older generations, the less educated and immigrants are falling behind. This creates unequal opportunity within the country and raises questions about those on the lower end entering the future workforce.
+                While Austria continues to struggle with growing child poverty rates and the digital era, 94.4 percent of Austrians are satisfied with the quality of water and air in the region. In regard to support, 92.5 percent of Austrians report having friends or relatives that they can rely on in times of trouble.
+                Based on economic status and results of well-being, the poverty rate in Austria can be drastically reduced. A possible solution to Austria&apos;s largest problems could be an increase in the state budget for welfare assistance. The State could also create support structures for children being bullied or coming into school systems from low-income families. Equal opportunity and digital training must also be available for anyone entering the workforce so that older generations, the less educated and immigrants don&apos;t get left behind.
+            </p>
+
+        </div>
+
+        <!-- divitions to import president photo, country mapped view and the other poverty displaying images -->
+        <div>
+            <img placeholder="Christian Kern" class="president" src="https://planetrulers.com/wp-content/uploads/2010/04/Austria-Chancellor-Christian_Kern.jpg" alt="sample picture">
+        </div>
+        <div>
+            <img src="./images/austria/mappedView.jpg" alt="mapped view of sweden" class="mapped-view" aria-placeholder="Mapped view of Finland">
+        </div>
+        <div>
+            <img src="./images/austria/img1.jpg" alt="Poverty in finland" class="poverty-img1" aria-placeholder="poverty in Finland">
+        </div>
+        <div>
+            <img src="./images/austria/img2.jpg" alt="Poverty in finland" class="poverty-img2" aria-placeholder="poverty in Finland">
+        </div>
+        <div>
+            <img src="./images/austria/img3.jpg" alt="Poverty in finland" class="poverty-img3" aria-placeholder="poverty in Finland">
+        </div>
+
+        <!-- ending pane -->
+        <div class = "ending">
+            <img id = "endingLogo" src="E:\Demesh\NSBM\Year 1 semester 2\Web application development\Assignment\Web page poverty\GitHub\Poverty (web page)\sample images\no poverty.jpg" alt="logo" aria-placeholder="No Poverty" width="200px">
+            <img src="https://cdn.countryflags.com/thumbs/austria/flag-800.png" id="endingFlag">
+            <h1 class="endingHeading"> &nbsp;&nbsp; PovertY</h1>
+            <h2 class="endingQuote">&nbsp;&nbsp;&nbsp; Treating is better than worrying</h2>
+            <br><br><br><br>
+            <h2>&nbsp;&nbsp; Testimonial</h2>
+            <ul>
+                <li>
+                    A. (2020a, June 18). On the Poverty Rate in Austria.   <br>
+                    The Borgen Project. Retrieved January 15, 2022, from   <br>
+                    <a href="https://borgenproject.org/poverty-rate-in-austria/" target="_blank">https://borgenproject.org/poverty-rate-in-austria/</a> 
+                </li>
+            </ul>
+        </div>
+        
+    </body>
+</html>

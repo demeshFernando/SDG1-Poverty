@@ -1,0 +1,9 @@
+12.austria            https://ec.europa.eu/info/sites/info/files/file_import/nrp_austria_en_0.pdf
+13.france             https://www.banque-france.fr/sites/default/files/medias/documents/bdf-ar_2020_web.pdf
+14.switzenland        https://reliefweb.int/sites/reliefweb.int/files/resources/GICHD_Annual_Report_2020_FINAL.pdf
+15.japan              https://pubdocs.worldbank.org/en/643141614003385582/JSDF-Fiscal-Years-2019-and-2020-combined-Annual-Report.pdf
+16.canada             https://www2.gov.bc.ca/assets/gov/british-columbians-our-governments/organizational-structure/ministries-organizations/social-development-poverty-reduction/togetherbc-report-2020.pdf
+17.latvia             https://www.sgi-network.org/docs/2020/country/SGI2020_Latvia.pdf
+18.new zeland         https://www.stats.govt.nz/assets/Uploads/Corporate/Stats-NZ-annual-report/Stats-NZ-Annual-report-2020-web.pdf
+19.hungary            https://ec.europa.eu/info/sites/default/files/2020-european_semester_country-report-hungary_en.pdf
+20.italy              https://ec.europa.eu/info/sites/default/files/2020-european_semester_country-report-italy_en.pdf
