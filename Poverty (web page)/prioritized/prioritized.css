@@ -228,7 +228,13 @@ h3{
     margin: 10px 0;
 }
 .Types1-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0,0.2);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px) {
+    .row{
+        flex-direction: column;
+    }
+    
 }
 .Types2{
     width: 80%;
@@ -261,7 +267,13 @@ h3{
     margin: 10px 0;
 }
 .Types2-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0,0.2);
+     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px) {
+    .row{
+        flex-direction: column;
+    }
+    
 }
 .lanka{
     width: 80%;
