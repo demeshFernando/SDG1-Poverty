@@ -1,0 +1,371 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .container {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url('img/background/bg.jpg');
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        padding: 0;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: 10px;
+    }
+    
+    .nav span {
+        margin-left: 20px;
+    }
+    
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10000;
+    }
+    
+    header .headline {
+        font-size: 64px;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-family: monospace;
+        font-size: 64px;
+        height: 10%;
+    }
+    
+    .topic {
+        font-family: monospace;
+        font-size: 64px;
+        height: 10%;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+    }
+    
+    .about-us {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .who-we-are {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    
+    .who-we-are span {
+        width: 95%;
+        align-items: center;
+        text-align: center;
+        font-family: Indie+Flower;
+        font-size: 32px;
+    }
+    
+    .container .about-us .who-we-are h1 {
+        font-size: 64px;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-family: Indie+Flower;
+        font-size: 64px;
+        height: 10%;
+        margin-bottom: 0;
+    }
+    
+    .container .about-us .who-we-are h2 {
+        font-size: 20px;
+        color: #f1bc2a;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-family: Indie+Flower;
+        height: 10%;
+        margin-bottom: 20px;
+    }
+    
+    .container .about-us .who-we-are h3 {
+        font-size: 32px;
+        color: #ffcc74;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-family: Indie+Flower;
+        height: 10%;
+        margin-bottom: 20px;
+    }
+    
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .card-img {
+        border-radius: 5px;
+    }
+    
+    .cards .card {
+        width: 13rem;
+        margin: 10px;
+    }
+    
+    .card p {
+        font-size: 14px;
+    }
+    
+    .card-img1 {
+        width: 90%;
+        height: 11rem;
+        background-image: url('img/students/01.png');
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    .card-img2 {
+        width: 90%;
+        height: 11rem;
+        background-image: url('img/students/02.png');
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    .card-img3 {
+        width: 90%;
+        height: 11rem;
+        background-image: url('img/students/03.png');
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    .card-img4 {
+        width: 90%;
+        height: 11rem;
+        background-image: url('img/students/04.png');
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    .card-img5 {
+        width: 90%;
+        height: 11rem;
+        background-image: url('img/students/05.png');
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    .modular-leader {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Josefin Sans', sans-serif;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .modular-leader .content {
+        width: 1280px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 100px;
+    }
+    
+    .modular-leader .content img {
+        height: auto;
+        width: 300px;
+    }
+    
+    .text {
+        width: 800px;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    
+    .text h1 {
+        color: #ffcc74;
+        font-size: 65px;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        line-height: 20px;
+    }
+    
+    .text h2 {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 25px;
+        margin-top: 50px;
+        letter-spacing: 2px;
+    }
+    
+    .text h3 {
+        color: #c0c4d6;
+        font-size: 18px;
+        line-height: 14px;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+    }
+    
+    .text h4 {
+        color: #c0c4d6;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+    }
+    
+    .text p {
+        color: #d1d41f;
+        font-weight: bolder;
+        font-size: larger;
+        margin-bottom: 0px;
+    }
+    
+    button {
+        background-color: #ffcc74;
+        color: black;
+        border: 2px solid transparent;
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 30px;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    button:hover {
+        transform: scale(1.2);
+        background-color: transparent;
+        border: 2px solid #ffcc74;
+        color: #ffcc74;
+        transition: .4s;
+        cursor: pointer;
+    }
+    
+    @media screen and(max-width:1180px) {
+        .modular-leader {
+            width: 100px;
+            height: auto;
+            padding: 70px 0px;
+        }
+        .cards {
+            font-size: 60px;
+            width: 100px;
+            height: auto;
+            padding: 70px 0px;
+        }
+    }
+    
+    @media screen and(max-width:650px) {
+        .modular-leader .content img {
+            margin-bottom: 35px;
+        }
+        .text h1 {
+            font-size: 60px;
+            margin-bottom: 25px;
+        }
+    }
+    
+    .nsbm {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Josefin Sans', sans-serif;
+        background-image: url("img/nsbm/nsbm.jpg");
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+    
+    .nsbm .content {
+        width: 1280px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .nsbm .content img {
+        height: auto;
+        width: 300px;
+        display: flex;
+    }
+    
+    .nsbm .text {
+        width: 2000px;
+        max-width: max-content;
+        padding: 0 10px;
+    }
+    
+    .nsbm .text h1 {
+        color: #c1c1da;
+        font-size: 80px;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        line-height: 75px;
+    }
+    
+    .nsbm .text p {
+        color: #28fa03;
+        font-weight: bolder;
+        margin-bottom: 0px;
+        font-size: xx-large;
+    }
+    
+    .column {
+        float: left;
+        width: 25%;
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+        }
+    }
